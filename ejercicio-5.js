@@ -5,8 +5,8 @@ var pepe = {
   }
 }
 
-var bonoPresentismo = {
-  calcularPresentismo: function (diasFaltados) {
+var _bonoXPresentismo = {
+  calcular: function (diasFaltados) {
     if (diasFaltados == 0)
        return 100;
     else
